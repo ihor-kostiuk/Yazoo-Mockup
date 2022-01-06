@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Yazoo Website Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section>
+    <div class="circle">
+
+    </div>
+    <div class="circleDark">
+
+    </div>
+    <img src="images/milk-splash.png" class="milkSplash" alt="milk splash image">
+    <header>
+      <a href="#"><img src="images/logo.png" class="logo" alt="Yazoo logo image"></a>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">What's New?</a></li>
+        <li><a href="#">Buy</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </header>
+    <div class="content">
+      <div class="textBox">
+        <h2>Milk drinks <span>YAZOO</span> <br> are full of the goodness that milk has to offer!</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+        </p>
+        <a href="#" class="btn">Learn more</a>
+      </div>
+
+      <div class="imgBox">
+        <img src="images/img1.png" class="yazoo" alt="Yazoo milk image">
+      </div>
+    </div>
+    <div class="thumbs">
+      <ul class="thumb-images">
+        <li><img src="images/thumb1.png" onclick="imgSlider('images/img1.png'); changeCircleDarkColor('#F0557D')" alt="thumb yazoo milk image"></li>
+        <li><img src="images/thumb2.png" onclick="imgSlider('images/img2.png'); changeCircleDarkColor('#FFC33F')" alt="thumb yazoo milk image"></li>
+        <li><img src="images/thumb3.png" onclick="imgSlider('images/img3.png'); changeCircleDarkColor('#53321B')" alt="thumb yazoo milk image"></li>
+        <!-- changeCircleDarkColor('#1333A2') -->
+      </ul>
+    </div>
+    <div class="social">
+      <ul class="sci">
+        <li><a href="#"><img src="images/facebook.png" alt="facebook logo"></a></li>
+        <li><a href="#"><img src="images/twitter.png" alt="twitter logo"></a></li>
+        <li><a href="#"><img src="images/instagram.png" alt="instagram logo"></a></li>
+      </ul>
+
+    </div>
+
+  </section>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
